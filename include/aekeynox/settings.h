@@ -79,7 +79,7 @@
 //    partial emulation only. QWERTY-intl hosts usually give the best results.
 
 // #define KB_EMULATION_COLEMAK          // host: QWERTY
-// #define KB_EMULATION_COLEMAK_DH       // host: QWERTY
+#define KB_EMULATION_COLEMAK_DH       // host: QWERTY
 // #define KB_EMULATION_DVORAK           // host: QWERTY
 // #define KB_EMULATION_ERGOL            // host: QWERTY-intl or AZERTY
 // #define KB_EMULATION_QWERTY_LAFAYETTE // host: QWERTY-intl or AZERTY
