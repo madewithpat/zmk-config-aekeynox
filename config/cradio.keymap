@@ -51,10 +51,10 @@
   };
 };
 
-// Same as emulations/colemak_dh.dtsi, with only the home row mods swapped.
+// Same as emulations/colemak_dh.dtsi, with GASC home row mods and ' instead of ; top right.
 &base_layer {
   bindings = <SELENIUM_KEYMAP_BINDINGS(
-    &kp LTOP   ,  &kp Q           &kp W          &kp F            &kp P           &kp B   ,   &kp J  &kp L           &kp U            &kp Y          &kp SEMI        ,  &kp RTOP   ,
+    &kp LTOP   ,  &kp Q           &kp W          &kp F            &kp P           &kp B   ,   &kp J  &kp L           &kp U            &kp Y          &kp SQT         ,  &kp RTOP   ,
     &kp LHOME  ,  &hml LGUI A     &hml LALT R    &hml LSHIFT S    &hml LCTRL T    &kp G   ,   &kp M  &hmr RCTRL N    &hmr RSHIFT E    &hmr LALT I    &hmr RGUI O     ,  &kp RHOME  ,
     &kp LSHIFT ,  &kp Z           &kp X          &kp C            &kp D           &kp V   ,   &kp K  &kp H           &kp COMMA        &kp DOT        &kp FSLH        ,  &kp RSHIFT ,
            LTHUMB_TUCK , LTHUMB_HOME , LTHUMB_REACH   ,   RTHUMB_REACH , RTHUMB_HOME , RTHUMB_TUCK
